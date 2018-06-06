@@ -1,5 +1,5 @@
-[![Build Status](https://img.shields.io/travis/zircote/swagger-php/master.svg?style=flat-square)](https://travis-ci.org/zircote/swagger-php)
-[![Total Downloads](https://img.shields.io/packagist/dt/zircote/swagger-php.svg?style=flat-square)](https://packagist.org/packages/zircote/swagger-php)
+[![Build Status](https://img.shields.io/travis/sonrac/swagger-php-openapi/master.svg?style=flat-square)](https://travis-ci.org/sonrac/swagger-php-openapi)
+[![Total Downloads](https://img.shields.io/packagist/dt/sonrac/swagger-php-openapi.svg?style=flat-square)](https://packagist.org/packages/sonrac/swagger-php-openapi)
 [![License](https://img.shields.io/badge/license-Apache-blue.svg?style=flat-square)](LICENSE-2.0.txt)
 
 # swagger-php
@@ -16,13 +16,13 @@ Generate interactive [OpenAPI](https://www.openapis.org) documentation for your 
 ## Installation (with [Composer](https://getcomposer.org))
 
 ```sh
-composer require zircote/swagger-php
+composer require sonrac/swagger-php-openapi
 ```
 
 For cli usage from anywhere install swagger-php globally and make sure to place the `~/.composer/vendor/bin` directory in your PATH so the `swagger` executable can be located by your system.
 
 ```sh
-composer global require zircote/swagger-php
+composer global require sonrac/swagger-php-openapi
 ```
 
 ## Usage
@@ -86,7 +86,7 @@ echo $openapi;
 
 ## Contributing
 
-Feel free to submit [Github Issues](https://github.com/zircote/swagger-php/issues)
+Feel free to submit [Github Issues](https://github.com/sonrac/swagger-php-openapi/issues)
 or pull requests.
 
 The documentation website resides within the `gh-pages` branch.
@@ -112,4 +112,4 @@ To run both unittests and linting execute:
 composer test
 ```
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/zircote/swagger-php/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sonrac/swagger-php-openapi/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
